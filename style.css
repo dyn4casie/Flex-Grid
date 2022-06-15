@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;800;900&display=swap');
+
+body{
+  background-color: #F2F2F2;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+
+}
+
+.card {
+  max-width: 960px;
+  padding-top: 90px;
+    
+  }
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 12px;
+  margin: 2rem;
+  overflow: hidden;
+}
+
+.sedan {
+  background-color: #E28525;
+  color: #FFF3E7;
+  padding: 45px;
+  
+}
+
+.sedan h4{
+  font-size: 30px;
+}
+
+.sedan p{
+  line-height: 1.6;
+}
+
+.sedan button{
+  border-radius: 20px;
+  margin-top: 60px;
+  padding: 13px 27px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.sedan button:hover{
+  color: #F2F2F2;
+  background-color: transparent;
+}
+
+.btn1{
+  background-color: #FFF3E7;
+  color: #E28525;
+  border-radius: 12px;
+  border-color: #FFF3E7;
+  }
+
+.btn2{
+    background-color: #FFF3E7;
+    color: #016972;
+    border-radius: 12px;
+    border-color: #FFF3E7;
+    }
+
+.btn3{
+      background-color: #FFF3E7;
+      color: #00413F;
+      border-radius: 12px;
+      border-color: #FFF3E7;
+      }
+
+.suv {
+  background-color: #016972;
+  color: #FFF3E7;
+  padding: 45px;
+  
+}
+
+.suv h4{
+  font-size: 30px;
+}
+
+.suv p{
+  line-height: 1.6;
+}
+
+.suv button{
+  border-radius: 20px;
+  margin-top: 60px;
+  padding: 13px 27px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.suv button:hover{
+  color: #F2F2F2;
+  background-color: transparent;
+}
+
+.lux {
+  background-color: #00413F;
+  color: #FFF3E7;
+  padding: 45px;
+  
+}
+
+.lux h4{
+  font-size: 30px;
+}
+
+.lux p{
+  line-height: 1.6;
+}
+
+.lux button{
+  border-radius: 20px;
+  margin-top: 60px;
+  padding: 13px 27px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.lux button:hover{
+  color: #F2F2F2;
+  background-color: transparent;
+}
+
+@media only screen and (max-width:768px) {
+  .wrapper {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .wrapper {
+      margin: 2rem .5rem;
+  }
+}

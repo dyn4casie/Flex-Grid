@@ -1,0 +1,59 @@
+/*Grid Styling*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #1A1C28;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+  
+  main {
+    display: grid;
+    grid-template-areas: 'a a a b' 'c c d d' 'c  c e e' 'c c e e';
+    gap: 5px;
+    width: 30%;
+    margin: auto;
+    height: auto;
+  }
+  
+  main div {
+    padding: 2em;
+    text-align: center;
+    /* border-radius: 5px; */
+  }
+  
+  .grid1 {
+    background-color: #EB5020;
+    grid-area: a;
+  }
+  
+  .grid2 {
+    background-color: #FFA401;
+    grid-area: b;
+    height: 80px;
+  }
+  
+  .grid3 {
+    background-color: #05AA42;
+    grid-area: c;
+    height: 80px;
+    /* width: 70%; */
+  }
+  
+  .grid4 {
+    background-color: #01AEFD;
+    grid-area: d;
+    height: 0;
+    /* width: 100px; */
+  }
+  
+  .grid5 {
+    background-color: #01AEFD;
+    grid-area: e;
+    height: 11px;
+  }
