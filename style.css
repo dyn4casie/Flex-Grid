@@ -4,7 +4,7 @@ body{
   background-color: #F2F2F2;
   min-height: 100vh;
   display: flex;
-  text-align: center;
+  justify-content: center;
 
 }
 
